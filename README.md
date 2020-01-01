@@ -1,11 +1,11 @@
 # display-setter
-此工具C实现python扩展，用来查询以及设置显示器分辨率，刷新率，旋转布局等信息  
+此工具通过C实现python扩展，用来查询以及设置显示器分辨率，刷新率，旋转布局等信息  
 
 ## 描述  
 > 使用C语言将windows API获取及设置显示器的功能封装成python扩展模块  
 > 包含两个模块    
 >> 一个是display_c_module，包含多个独立的python函数，来实现display相关的功能  
->> https://github.com/bamboo-pan/display_c_module
+>> https://github.com/bamboo-pan/display_c_module  
 >> 一个是display_class_module，将display相关的操作通过C封装成python类,来实现display相关的功能  
 >> https://github.com/bamboo-pan/display_class_module
 
